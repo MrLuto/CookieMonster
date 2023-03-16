@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cookie Monster</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="./../fa/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div class="grid">
+    <!-- Start Header-->
+    <div id="logo" class="header">
+        <img src="./../logo.png" alt="Cookie Monster" width="32" height="32">
+    </div>
+    <div id="CurrentDomain" class="header">
+      <h1 id="Current_Domain">Current Domain</h1>
+    </div>
+    <div id="close" class="header">
+      <i id="exit" class="fa fa-times-circle fa-3x" aria-hidden="true"></i>
+    </div>
+    <!-- End Header-->
+
+    <!-- Start Content-->
+    <div class="content">
+    </div>
+    <div id="content" class="content">
+      <p id="status">Cookie monster is eating all your cookies</p>
+      <label class="switch">
+        <input type="checkbox" id="selector">
+        <span class="slider round"></span>
+      </label>
+    </div>
+    <div class="content">
+    </div>
+    <!-- End Content-->
+
+    <!-- Start Footer-->
+    <div class="footer">
+      <i id="menu" class="fa-solid fa-bars fa-2x"></i>
+    </div>
+    <div class="footer" style="grid-column:span 2;">
+      <div class="grid2">
+        <div id="total">
+          <p id="total_blocked_num" class="num">69,420</p>
+          <p id="total_blocked" class="text">Total cookies blocked</p>
+        </div>
+        <div id="local">
+          <p id="local_blocked_num" class="num">24</p>
+          <p id="local_blocked" class="text">Ads blocked on this site</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer" style="width:0px;">
+    </div>
+    <!-- End Footer-->
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
